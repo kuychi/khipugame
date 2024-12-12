@@ -339,7 +339,7 @@ MainMenuState._onHeroVsCoin = function (hero, platform) {
     this.sfx.platform.play();
     platform.kill();
 	this.game.state.add('play', PlayState);
-		this.game.state.start('play', true, false, {level: 0});
+	this.game.state.start('play', true, false, {level: 0});
 };
 
 MainMenuState.shutdown = function () {
